@@ -43,4 +43,4 @@ This script automatically obtain the setup-token for you, its main intention is 
 
 `python3 exploit.py -u http://[target.url] -c "[command]"`
 
-![](https://imgur.com/XqJ4Kp3)
+![](https://imgur.com/XqJ4Kp3.png)
