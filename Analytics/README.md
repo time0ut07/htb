@@ -8,6 +8,9 @@ This script is written in Python and allows user to exploit the Metabase's softw
 [Unmasking CVE-2023-38646: Analyzing the Critical Metabase Security Vulnerability and Its Implications](https://www.vicarius.io/vsociety/posts/unmasking-cve-2023-38646-analyzing-the-critical-metabase-security-vulnerability-and-its-implications-1)
 
 
+[Chaining our way to Pre-Auth RCE in Metabase (CVE-2023-38646)](https://www.assetnote.io/resources/research/chaining-our-way-to-pre-auth-rce-in-metabase-cve-2023-38646)
+
+
 [Reproducing CVE-2023-38646: Metabase Pre-auth RCE](https://blog.calif.io/p/reproducing-cve-2023-38646-metabase)
 
 **What is Metabase**
