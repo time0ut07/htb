@@ -1,1 +1,8 @@
-# htb
+# Hack-the-Box
+
+This repo will be where I store self-crafted Proof of Concept (PoC) Script. Majority of these scripts already exists but I want to craft my own to learn more. Some of the scripts might just be an automated task for me for specific box exploit.
+
+
+Note: All my writeups are in my notion so no writeup here 
+
+I'm a beginner
