@@ -26,10 +26,19 @@ Remote Code Execution (RCE) is a dangerous cybersecurity threat where it allows 
 Endpoint `/api/setup/validate` is used to check for database connection during the application setup process. This specific endpoint requires a valid setup-token to be invoked, and this token is generated when Metabase starts and can be called by calling the pre-Auth API `/api/setup/properties`
 
 
-Additionally, in the `/api/setup/validate` endpoint, attackers can force Metabase to connect to arbitrary database servers using JDBC.
+Additionally, in the `/api/setup/validate` endpoint, attackers can force Metabase to connect to arbitrary database servers using JDBC (Java Database Connectivity).
 
 
 Finally, to RCE, a SQL Injection vulnerability within the H2 database driver was leveraged. By using the TRACE_LEVEL_SYSTEM_OUT argument and stacking SQL queries, they achieved arbitrary code execution.
 
 
-One of the main cause for this vulnerability is due to 
+## Usage
+
+
+[Inspired by m3m0o](https://github.com/m3m0o/metabase-pre-auth-rce-poc?tab=readme-ov-file)
+
+
+This script automatically obtain the setup-token for you, its main intention is to obtain a reverse shell, which you can have more options using [revshells](https://www.revshells.com/). The script can be run using the following command:
+
+
+`python3 exploit.py -u http://[target.url] -c "[command]"`
