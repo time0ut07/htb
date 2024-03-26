@@ -36,4 +36,4 @@ This script require the user to have access to the dashboard page by having the 
 
 `python3 exploit.py -ip [target IP] -p [target port] -a [admin cookie] -c "[command]"`
 
-![]()
+![](https://imgur.com/a/ABGRFbU.png)
