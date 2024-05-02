@@ -6,5 +6,3 @@ This repo will be where I store self-crafted Proof of Concept (PoC) Script for b
 Note: All my writeups are in my notion so no writeup here 
 
 I'm a beginner... I've only pwned easy boxes and some medium boxes. I may not have coded my script as optimal as well but it works.
-
-pulled!
